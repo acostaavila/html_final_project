@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="autor" content="Francisco Acosta Avila">
+		<meta name="description" content="Hoja de vida">
+		<title> Hoja de Vida </title>		
+	</head>
+	<body>
+		<header>
+			<svg width="300px" height="90px">
+				<image xlink:href="img/logo.svg" height="90"/>
+			</svg>
+			<h1>Hoja de Vida</h1>
+			<h2>Nombres:</h2>
+			<h3><em>Francisco Rafael</em></h3>
+			<h2>Apellidos:</h2>
+			<h3><em>Acosta Avila</em></h3>
+			<h2>Fecha y Lugar de nacimiento:</h2>
+			<h3><em>06/01/1981 - Caracas, Venezuela</em></h3>
+			<nav>
+				<a href="index.html">Inicio</a>|
+				<a>Educación</a>|
+				<a href="experiencia.html">Experiencia Profesional</a>				
+			</nav>
+		</header>
+		<section>
+			<h2>Educación</h2>
+			<table border="1" cellpadding="2" cellspacing="2">
+				<thead>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+					<th>Título</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1.999</td>
+						<td>Universidad Nueva Esparta</td>
+						<td>Caracas</td>
+						<td>no</td>
+						<td>N/A</td>
+					</tr>
+					<tr>
+						<td>2.001</td>
+						<td>IUNP</td>
+						<td>Caracas</td>
+						<td>si</td>
+						<td>T.S.U. Publicidad y Mercadeo</td>
+					</tr>
+				</tbody>
+			</table>
+			<form autocomplete="on">
+				<fieldset>
+					<h2>Agregar Estudios</h2>
+						<p>
+							<label for="year">año</label>
+							<select name="year" required autofocus>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								<option value="2014">2014</option>
+								<option value="2013">2013</option>
+								<option value="2012">2012</option>
+								<option value="2011">2011</option>
+								<option value="2010">2010</option>
+								<option value="2009">2009</option>
+								<option value="2008">2008</option>
+								<option value="2007">2007</option>
+								<option value="2006">2006</option>
+								<option value="2005">2005</option>
+								<option value="2004">2004</option>
+								<option value="2003">2003</option>
+								<option value="2002">2002</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+							</select>
+						</p>
+						<p>
+							<label for="instituto">Institución</label>
+							<input type="text" name="instituto" placeholder="Universidad o Instituto" required autofocus> <br>
+						</p>
+						<p>
+							<label for="lugar">Lugar</label>
+							<textarea name="lugar" placeholder="Pais o Ciudad" rows="2" cols="20" required autofocus></textarea>
+						</p>
+						<p>
+							<label for="culmino">¿culminó?</label>
+							<input type="radio" name="si">si</input>
+							<input type="radio" name="no">no</input>
+						</p>
+						<p>
+							<label for="titulo">Titulo</label>
+							<input type="text" name="titulo" placeholder="Titulo obtenido" required autofocus> <br>
+						</p>
+						<p>
+							<input type="submit" name="enviar"/>
+						</p>
+				</fieldset>
+			</form>
+			
+		</section>
+			<footer>
+				<h3>Información de Contacto</h3>
+				<p>
+				<strong>Telefono:</strong><em>  +57.322.368.0710</em><strong>  / Correo Electronico:</strong><em>  facosta.avila@gmail.com</em><strong>  / LinkedIn:</strong><a href="https://co.linkedin.com/in/francisco-rafael-acosta-avila-603b28131" target="_blank"><em>  Francisco Acosta</em></a>
+				</p>
+			</footer>
+	</body>
+</html>
